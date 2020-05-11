@@ -62,10 +62,10 @@ def factorial_numbers_post():
   	      print(request.form['text'].split())
   	      total = 1
   	      try:
-  	      	fact = request.form['text']:
-		while fact >= 1:
-			total = int(fact)* int(fact-1)
-			fact=fact-1
+#   	      	fact = request.form['text']:
+# 		while fact >= 1:
+# 			total = int(fact)* int(fact-1)
+# 			fact=fact-1
 # 		for str_num in request.form['text'].split():
 #   	      		total *= int(str_num)
   	      	return render_template('factorial_numbers.html', result=str(total))
