@@ -15,7 +15,8 @@ def home_page():
 
 @app.route('/<name>')
 def profile(name):
-	return render_template('index.html', name=name)
+	name_entry = "name" + is a Game GEEK!!
+	return render_template('index.html', name=name_entry)
 
 
 @app.route('/add_numbers', methods=['GET','POST'])
