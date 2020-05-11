@@ -63,6 +63,7 @@ def factorial_numbers_post():
   	      total = 1
 		
   	      try:
+		data = int(request.form['text']
  
 # 		for str_num in range int((request.form['text'],0,-1)):
 # 			if str_num!=1:
