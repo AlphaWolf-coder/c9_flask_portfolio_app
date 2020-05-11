@@ -61,15 +61,15 @@ def factorial_numbers_post():
 	  elif request.method == 'POST':
   	      print(request.form['text'].split())
   	      total = 1
+		
   	      try:
- 		while  request.form['text'] >= 1:
-			print ('hi')
-# 			fact=fact-1
-# 		for str_num in request.form['text'].split():
-#   	      		total *= int(str_num)
-  	      	return render_template('factorial_numbers.html', result=str(total))
-  	      except ValueError:
-  	      	return "Easy now! Let's keep it simple! 2 numbers with a space between them please"
+ 
+# 		for str_num in range int((request.form['text'],0,-1)):
+# 			if str_num!=1:
+# 				total *= int(str_num)
+#   	      	return render_template('factorial_numbers.html', result=str(total))
+#   	      except ValueError:
+#   	      	return "Easy now! Let's keep it simple! 2 numbers with a space between them please"
 
 
 @app.route('/shopping_list', methods=['GET','POST'])
