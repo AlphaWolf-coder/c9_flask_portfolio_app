@@ -63,9 +63,8 @@ def factorial_numbers_post():
   	      total = 1
 		
   	      try:
-		data = int(request.form['text']
- 
-# 		for str_num in range int((request.form['text'],0,-1)):
+ 		for str_num in range (request.form['text'],0,-1):
+			print('hi')
 # 			if str_num!=1:
 # 				total *= int(str_num)
   	      	return render_template('factorial_numbers.html', result=str(total))
