@@ -36,7 +36,7 @@ def add_numbers_post():
   	      	return "Easy now! Let's keep it simple! 2 numbers with a space between them please"
 
 
-@app.route('/Multiply_Numbers', methods=['GET','POST'])
+@app.route('/Multiply_numbers', methods=['GET','POST'])
 def add_numbers_post():
 	  # --> ['5', '6', '8']
 	  # print(type(request.form['text']))
